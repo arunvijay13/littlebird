@@ -1,0 +1,49 @@
+
+
+
+spring:
+  data:
+    mongodb:
+      database: user_db
+      host: localhost
+      port: 27017
+
+  neo4j:
+    uri: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: littlebird
+
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 708657316965-9q83lt1cspvgvusqbqp19ir3s0jut05d.apps.googleusercontent.com
+            clientSecret: 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
+            redirectUri: http://localhost:8080/auth/login/oauth2/code/google
+            scope:
+              - email
+              - profile
+
+  application:
+    name: user-service
+
+jwt:
+  secret: DEF9D1212CB9D458F52987CC352F448E8A78EAF353C856B2D699A82EAADEF9D1212CB9D458F52987CC352F448E8A78EAF353C856B2D699A82EAA
+  expiration: 1
+
+
+server:
+  port: 8080
+
+  servlet:
+    context-path: /auth
