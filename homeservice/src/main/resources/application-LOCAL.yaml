@@ -1,0 +1,39 @@
+
+
+
+spring:
+  data:
+    mongodb:
+      database: post_metadata_db
+      host: localhost
+      port: 27017
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+  neo4j:
+    uri: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: littlebird
+
+
+server:
+  port: 8082
+
+  servlet:
+    context-path: /home
+
+kafka:
+  topic:
+    post: post-tweet-topic
+    metadata: post-metadata-topic
+  partition: 3
+  replication-factor: 1
+  schema:
+    registry: "http://127.0.0.1:8081"
+  bootstrap:
+    url: "http://127.0.0.1:9092"
