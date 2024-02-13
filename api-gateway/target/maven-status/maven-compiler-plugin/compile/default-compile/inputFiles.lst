@@ -1,8 +1,0 @@
-/Users/arunvijay/Documents/spring_projects/littlebird/api-gateway/src/main/java/com/littlebird/apigateway/service/PostTweetKafkaService.java
-/Users/arunvijay/Documents/spring_projects/littlebird/api-gateway/src/main/java/com/littlebird/apigateway/configuration/KafkaProducerConfiguration.java
-/Users/arunvijay/Documents/spring_projects/littlebird/api-gateway/src/main/java/com/littlebird/apigateway/configuration/HomeRouterConfig.java
-/Users/arunvijay/Documents/spring_projects/littlebird/api-gateway/src/main/java/com/littlebird/apigateway/ApiGatewayApplication.java
-/Users/arunvijay/Documents/spring_projects/littlebird/api-gateway/src/main/java/com/littlebird/apigateway/configuration/AppRouteConfiguration.java
-/Users/arunvijay/Documents/spring_projects/littlebird/api-gateway/src/main/java/com/littlebird/apigateway/router/AppRouter.java
-/Users/arunvijay/Documents/spring_projects/littlebird/api-gateway/src/main/java/com/littlebird/apigateway/model/TweetRequest.java
-/Users/arunvijay/Documents/spring_projects/littlebird/api-gateway/src/main/java/com/littlebird/apigateway/model/TweetData.java
