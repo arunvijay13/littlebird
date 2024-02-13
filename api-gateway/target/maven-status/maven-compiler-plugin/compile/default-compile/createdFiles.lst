@@ -1,0 +1,10 @@
+com/littlebird/apigateway/service/PostTweetKafkaService.class
+com/littlebird/apigateway/model/TweetData.class
+com/littlebird/apigateway/configuration/KafkaProducerConfiguration.class
+com/littlebird/apigateway/configuration/AppRouteConfiguration.class
+com/littlebird/apigateway/model/TweetData$Builder.class
+com/littlebird/apigateway/model/TweetRequest$Builder.class
+com/littlebird/apigateway/router/AppRouter.class
+com/littlebird/apigateway/configuration/HomeRouterConfig.class
+com/littlebird/apigateway/ApiGatewayApplication.class
+com/littlebird/apigateway/model/TweetRequest.class
